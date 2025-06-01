@@ -4,11 +4,11 @@ import TestimonialBubble from './TestimonialBubble';
 const testimonialsData = [
   {
     content: "Shah's innovation in AI and software engineering is unparalleled. A true visionary!",
-    author: "Dr. A. Khan, AI Mentor"
+    author: "Prof. Usman Habib, HOD Software Engineering FAST-NUCES"
   },
   {
     content: "His leadership in tech events is inspiring. Shah is a natural leader.",
-    author: "Prof. S. Ahmed, FAST-NUCES"
+    author: "Prof. Subhan Ullah, FAST-NUCES"
   }
 ];
 
