@@ -49,11 +49,11 @@ const Contact: React.FC = () => {
     setTimeout(() => {
       // If after a short delay the email client doesn't open (e.g., no client configured),
       // the browser may not navigate away, and we can show a fallback message
-      // if (document.hasFocus()) {
-      //   alert(
-      //     'It looks like your email client did not open. Please email shahfaisal.std@gmail.com directly or copy the email address to your clipboard.'
-      //   );
-      // }
+      if (document.hasFocus()) {
+        alert(
+          'It looks like your email client did not open. Please email shahfaisal.std@gmail.com directly or copy the email address to your clipboard.'
+        );
+      }
     }, 1000); // Delay to allow email client to open
   };
 
